@@ -486,7 +486,7 @@ export default function Presets() {
                       id="title"
                       maxLength={120}
                       className="focus:ring-inset"
-                      placeholder={`Papermark - open-source document sharing infrastructure.`}
+                      placeholder={`SeedToScale - open-source document sharing infrastructure.`}
                       value={data.metaTitle || ""}
                       onChange={(e) => {
                         setData({ ...data, metaTitle: e.target.value });
@@ -517,7 +517,7 @@ export default function Presets() {
                       rows={3}
                       maxLength={240}
                       className="focus:ring-inset"
-                      placeholder={`Papermark is an open-source document sharing infrastructure for modern teams.`}
+                      placeholder={`SeedToScale is an open-source document sharing infrastructure for modern teams.`}
                       value={data.metaDescription || ""}
                       onChange={(e) => {
                         setData({

@@ -101,8 +101,8 @@ export default function DataroomDocumentViewPage({
           enableBranding={meta.enableCustomMetatag ?? false}
           title={
             meta.metaTitle ??
-            `${link?.dataroomDocument?.document?.name} | Powered by Papermark` ??
-            "Document powered by Papermark"
+            `${link?.dataroomDocument?.document?.name} | Powered by SeedToScale` ??
+            "Document powered by SeedToScale"
           }
           description={meta.metaDescription ?? null}
           imageUrl={meta.metaImage ?? null}
@@ -147,8 +147,8 @@ export default function DataroomDocumentViewPage({
         enableBranding={meta.enableCustomMetatag ?? false}
         title={
           meta.metaTitle ??
-          `${link?.dataroomDocument?.document?.name} | Powered by Papermark` ??
-          "Dataroom powered by Papermark"
+          `${link?.dataroomDocument?.document?.name} | Powered by SeedToScale` ??
+          "Dataroom powered by SeedToScale"
         }
         description={meta.metaDescription ?? null}
         imageUrl={meta.metaImage ?? null}
