@@ -54,7 +54,7 @@ export default function Settings() {
           <div className="grid gap-6">
             <Form
               title="Dataroom Name"
-              description="This is the name of your data room on Papermark."
+              description="This is the name of your data room on SeedToScale."
               inputAttrs={{
                 name: "name",
                 placeholder: "My Dataroom",

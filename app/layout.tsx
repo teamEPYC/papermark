@@ -49,6 +49,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <link href="https://cdn.prod.website-files.com/6410c40c8f9e67469272e6db/6748501800980c0348cf087c_PPFragment-SansRegular.woff2&display=swap" rel="stylesheet"></link>
       <head>
         <PlausibleProvider
           domain="papermark.io"
