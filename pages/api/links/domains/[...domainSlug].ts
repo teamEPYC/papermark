@@ -25,6 +25,8 @@ export default async function handle(
     const slug = domainSlug[1];
     const documentId = domainSlug[3];
 
+    console.log("Request query", req.query);
+
     if (slug === "404") {
       return res.status(404).json({
         error: "Link not found",
