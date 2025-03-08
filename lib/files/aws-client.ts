@@ -23,6 +23,7 @@ export const getS3Client = () => {
           ),
         }
       : undefined,
+    forcePathStyle: true,
   });
 };
 
