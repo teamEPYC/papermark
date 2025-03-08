@@ -145,7 +145,7 @@ export async function processEmailQueue() {
 
                   return {
                     email: {
-                      from: "SeedToScale <system@papermark.io>",
+                      from: "SeedToScale <system@epyc.us>",
                       to: userTeam.user.email || "delivered@resend.dev",
                       subject: "2024 in Review: Your Year with SeedToScale",
                       react,

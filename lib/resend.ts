@@ -44,15 +44,15 @@ export const sendEmail = async ({
       from: marketing
         ? "Marc from SeedToScale <marc@ship.papermark.io>"
         : system
-          ? "SeedToScale <system@papermark.io>"
+          ? "SeedToScale <system@epyc.us>"
           : verify
             ? "SeedToScale <system@verify.papermark.io>"
             : !!scheduledAt
-              ? "Marc Seitz <marc@papermark.io>"
-              : "Marc from SeedToScale <marc@papermark.io>",
+              ? "Marc Seitz <marc@epyc.us>"
+              : "Marc from SeedToScale <marc@epyc.us>",
       to: test ? "delivered@resend.dev" : to,
       cc: cc,
-      replyTo: marketing ? "marc@papermark.io" : undefined,
+      replyTo: marketing ? "marc@epyc.us" : undefined,
       subject,
       react,
       scheduledAt,
