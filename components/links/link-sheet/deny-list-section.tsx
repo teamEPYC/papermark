@@ -99,7 +99,7 @@ export default function DenyListSection({
             <Textarea
               className="focus:ring-inset"
               rows={5}
-              placeholder="Enter blocked emails/domains, one per line, e.g.                                      marc@papermark.io                                                                                   @example.org"
+              placeholder="Enter blocked emails/domains, one per line, e.g.                                      marc@epyc.us                                                                                   @example.org"
               value={denyListInput}
               onChange={handleDenyListChange}
             />

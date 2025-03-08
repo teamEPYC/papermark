@@ -118,7 +118,7 @@ export default function DataroomNav({
                   target="_blank"
                   className="text-2xl font-bold tracking-tighter text-white"
                 >
-                  Papermark
+                  SeedToScale
                 </Link>
               )}
             </div>

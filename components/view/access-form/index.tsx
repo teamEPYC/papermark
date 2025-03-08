@@ -177,7 +177,7 @@ export default function AccessForm({
               rel="noopener noreferrer"
               className="font-semibold"
             >
-              Papermark
+              SeedToScale
             </a>
           </p>
         </div>

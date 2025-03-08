@@ -2,9 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+.bg-white {
+  background-color: hsl(82 41% 95%) !important;
+}
 @layer base {
   :root {
-    --background: 0 0% 100%; /* white */
+    --background: 82 41% 95%; /* white */
     --foreground: 224 71.4% 4.1%; /* gray-950 */
 
     --muted: 220 14.3% 95.9%; /* gray-100 */
@@ -19,7 +22,7 @@
     --border: 220 13% 91%; /* gray-200 */
     --input: 216 12.2% 83.9%; /* gray-300 */
 
-    --primary: 220.9 39.3% 11%; /* gray-900 */
+    --primary: 1 69% 44%; 
     --primary-foreground: 210 20% 98%; /* gray-50 */
 
     --secondary: 220 14.3% 95.9%; /* gray-100 */
@@ -36,7 +39,7 @@
 
     --ring: 217.9 10.6% 64.9%; /* gray-400 */
 
-    --radius: 0.5rem; /* md */
+    --radius: 0rem; /* md */
 
     --sidebar-background: 0 0% 98%; /* white */
     --sidebar-foreground: 240 5.3% 26.1%; /* gray-900 */
@@ -64,7 +67,7 @@
     --border: 215 27.9% 16.9%; /* gray-800 */
     --input: 216.9 19.1% 26.7%; /* gray-700 */
 
-    --primary: 210 20% 98%; /* gray-50 */
+    --primary: 1 69% 44%; /* gray-50 */
     --primary-foreground: 220.9 39.3% 11%; /* gray-900 */
 
     --secondary: 215 27.9% 16.9%; /* gray-800 */
@@ -96,8 +99,16 @@
   * {
     @apply border-border;
   }
+  @font-face {
+    font-family: 'PPFragment Sans';
+    src: url('https://cdn.prod.website-files.com/6410c40c8f9e67469272e6db/6748501800980c0348cf087c_PPFragment-SansRegular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+
   body {
     @apply bg-background text-foreground;
+    font-family: 'PPFragment Sans', 'Arial', sans-serif !important;
   }
 }
 
